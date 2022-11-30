@@ -1,0 +1,72 @@
+<html>
+  <head>
+
+    <title>
+      Cardiac Arrest Prediction 
+    </title>
+
+    <link rel="stylesheet" href="static\css\main.css">
+    
+  </head>
+
+  <body>
+    <h1> Cardiac Arrest Prediction </h1>
+
+    <font>
+      <b><h2>{{test}}</h2></b>
+    
+    <form action = "/login" method = "POST" >
+
+      <p> Age <input type = "number" name = "age" id = "input1"/></p>
+
+      <p>Do you have Anaemia ? 
+        <label for="yes"> Yes </label>
+        <input type="radio" name="anaemia" id="yes" value="yes" checked>
+        
+        <label for="No"> No </label>
+        <input type="radio" name="anaemia" id="no" value="no">
+      </p>  
+
+      <p> Creatinine Phosphokinase Level <input type = "number" name = "cpl" id = "input1"/></p>
+
+      <p>Do you have Diabetes ? 
+        <label for="yes"> Yes </label>
+        <input type="radio" name="diabetes" id="yes" value="yes" checked>
+        
+        <label for="No"> No </label>
+        <input type="radio" name="diabetes" id="no" value="no">
+      </p>    
+
+      <p> Ejection Fraction Level <input type = "number" name = "efl"id = "input1"/></p>
+
+      <p> High Blood Pressure Level <input type = "number" name = "hbpl" id = "input1"/></p>
+
+      <p> Platelets <input type = "number" name = "p" /></p>
+
+      <p> Serum Creatinine Level <input type = "number" name = "scl" id = "input1"/></p>
+
+      <p> Serum Sodium <input type = "number" name = "ss" id = "input1"/></p>
+
+      <p>What's your Gender ?
+        <label for="male"> Male </label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        
+        <label for="female"> Female </label>
+        <input type="radio" name="gender" id="female" value="female">
+      </p>
+
+      <p>Do you Smoke ? 
+        <label for="yes"> Yes </label>
+        <input type="radio" name="smoking" id="yes" value="yes" checked>
+        
+        <label for="No"> No </label>
+        <input type="radio" name="smoking" id="no" value="no">
+      </p>  
+
+      <p><input type = "submit" value = "SUBMIT" /></p>
+
+    </form>
+    </font>
+
+  </body>
+</html>
